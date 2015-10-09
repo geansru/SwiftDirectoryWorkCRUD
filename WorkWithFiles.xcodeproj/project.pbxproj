@@ -12,6 +12,7 @@
 		D514A6331BC7BBC400191F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D514A6311BC7BBC400191F95 /* Main.storyboard */; };
 		D514A6351BC7BBC400191F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D514A6341BC7BBC400191F95 /* Assets.xcassets */; };
 		D514A6381BC7BBC400191F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D514A6361BC7BBC400191F95 /* LaunchScreen.storyboard */; };
+		D514A6401BC7D3F300191F95 /* DirectoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514A63F1BC7D3F300191F95 /* DirectoryListViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D514A6341BC7BBC400191F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D514A6371BC7BBC400191F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D514A6391BC7BBC400191F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D514A63F1BC7D3F300191F95 /* DirectoryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D514A62D1BC7BBC400191F95 /* AppDelegate.swift */,
 				D514A62F1BC7BBC400191F95 /* ViewController.swift */,
+				D514A63F1BC7D3F300191F95 /* DirectoryListViewController.swift */,
 				D514A6311BC7BBC400191F95 /* Main.storyboard */,
 				D514A6341BC7BBC400191F95 /* Assets.xcassets */,
 				D514A6361BC7BBC400191F95 /* LaunchScreen.storyboard */,
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D514A6401BC7D3F300191F95 /* DirectoryListViewController.swift in Sources */,
 				D514A6301BC7BBC400191F95 /* ViewController.swift in Sources */,
 				D514A62E1BC7BBC400191F95 /* AppDelegate.swift in Sources */,
 			);
@@ -249,6 +253,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WorkWithFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.1appstudio.ios.WorkWithFiles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -260,6 +265,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WorkWithFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.1appstudio.ios.WorkWithFiles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
