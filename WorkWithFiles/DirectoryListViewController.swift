@@ -20,6 +20,9 @@ class DirectoryListViewController: UITableViewController {
     
     var list: [String] = []
     
+    @IBAction func cancel(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
     //MARK: Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
